@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "include": [
+      "src",
+      "test",
+      "index.d.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "*":[
+        "*",
+        "../app1/node_modules/*"
+      ]
+    }
+  }
+}
